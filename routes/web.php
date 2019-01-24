@@ -12,5 +12,8 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
+
+Route::post('/create', 'MessageController@create');
+Route::get('/message/{key}', 'MessageController@get');
