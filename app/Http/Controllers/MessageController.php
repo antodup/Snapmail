@@ -29,7 +29,7 @@ class MessageController extends Controller
         return view('validate_form');
     }
 
-    public function get(Message $message, MessageRequest $request)
+    public function get(Message $message, Request $request)
     {
         $final = $message->where('key', $request->key)->firstOrFail();
         $data = [
@@ -38,7 +38,5 @@ class MessageController extends Controller
         ];
         $final->delete();
         return view('emails.template', $data);
-
-
     }
 }

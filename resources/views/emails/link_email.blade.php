@@ -12,7 +12,7 @@
 <body>
 <section class="container text-center p-5">
     <h1>Votre Lien pour afficher le message :</h1>
-    <a href="http://127.0.0.1:8000/message/{{$key}}">Cliquez sur ce lien : http://127.0.0.1:8000/{{$key}}</a>
+    <a href="http://127.0.0.1:8000/message/{{$key}}">Cliquez sur ce lien : http://127.0.0.1:8000/message/{{$key}}</a>
 </section>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
